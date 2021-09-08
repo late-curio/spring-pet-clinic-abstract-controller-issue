@@ -9,10 +9,15 @@ This sample has been modified to reproduce an issue for NR1 Java Agent.
 After starting app as defined below or in IDE with New Relic Agent attached, hit these endpoints
 
 `GET http://localhost:8080/vets`
+
 `GET http://localhost:8080/vets/list`
+
 `GET http://localhost:8080/welcome`
+
 `GET http://localhost:8080/welcome/html`
+
 `GET http://localhost:8080/owners`
+
 `GET http://localhost:8080/owners/new`
 
 ![Reproduction](nr1-transactions.png)
