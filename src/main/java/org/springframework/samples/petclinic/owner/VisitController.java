@@ -19,6 +19,7 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
+import org.springframework.samples.petclinic.CommonController;
 import org.springframework.samples.petclinic.visit.Visit;
 import org.springframework.samples.petclinic.visit.VisitRepository;
 import org.springframework.stereotype.Controller;
@@ -38,7 +39,7 @@ import org.springframework.web.bind.annotation.PostMapping;
  * @author Dave Syer
  */
 @Controller
-class VisitController {
+class VisitController extends CommonController {
 
 	private final VisitRepository visits;
 
