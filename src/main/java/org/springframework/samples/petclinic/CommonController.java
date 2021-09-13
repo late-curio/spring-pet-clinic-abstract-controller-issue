@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.samples.petclinic.vet.Vets;
 import org.springframework.web.bind.annotation.GetMapping;
 
-public abstract class CommonController {
+public class CommonController {
 
 	@GetMapping
 	public ResponseEntity<Vets> somethingUnique() {
