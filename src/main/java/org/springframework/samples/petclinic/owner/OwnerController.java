@@ -36,7 +36,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/owners")
-class OwnerController extends CommonController {
+class OwnerController { // extends CommonController {
 
 	private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";
 

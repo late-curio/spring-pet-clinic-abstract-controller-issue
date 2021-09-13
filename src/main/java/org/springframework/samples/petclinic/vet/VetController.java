@@ -15,7 +15,6 @@
  */
 package org.springframework.samples.petclinic.vet;
 
-import org.springframework.samples.petclinic.CommonController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,7 +30,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/vets")
-class VetController extends CommonController {
+class VetController { //extends CommonController {
 
 	private final VetRepository vets;
 
